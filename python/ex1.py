@@ -1,6 +1,8 @@
 a=[]
 print("enter 10 number")
 for i in range(10):
-    a.append(int(input()))
+    num = int(input("enter number:"+str(i+1) +":"))
+    a.append(num)
+    
 
 print(a)
