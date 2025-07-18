@@ -13,9 +13,11 @@ for i in a:
 
 
 
-
-"""sum = 0
+sum = 0
 for i in range(1,):
     sum += i
     print(sum)
-    """
+    
+    
+for i in range(5):
+    print(str(i)+"cube of the "+str(i+1)+"is :"+str(i*i*i))
