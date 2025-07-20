@@ -9,7 +9,7 @@ print(a)
 sum=0
 for i in a:
     sum =sum+i
-    print(sum)
+    print(sum)8
 
 
 
@@ -21,3 +21,7 @@ for i in range(1,):
     
 for i in range(5):
     print(str(i)+"cube of the "+str(i+1)+"is :"+str(i*i*i))
+    
+for i in range(1,10):
+    for j in range(1,6):
+        print(j,"apple")
