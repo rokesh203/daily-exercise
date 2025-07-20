@@ -2,76 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS3 Full Demo</title>
-  
-  <!-- Web Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-  <!-- External CSS -->
+  <title>Student Registration Form</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Internal CSS -->
-  <style>
-    .internal-style {
-      color: #007BFF;
-      padding: 10px;
-    }
-
-    .multi-column {
-      column-count: 3;
-      column-gap: 20px;
-    }
-  </style>
 </head>
 <body>
 
-  <header class="header">
-    <h1 class="title">Welcome to CSS3 Showcase</h1>
-  </header>
+  <div class="container">
+    <h1 class="title">Student Registration Form</h1>
 
-  <section class="form-section">
-    <h2>Form Elements</h2>
-    <form>
-      <label>Name: <input type="text" name="name" /></label><br><br>
-      <label>Email: <input type="email" name="email" /></label><br><br>
-      <label>Message:<br><textarea rows="4" cols="30"></textarea></label><br><br>
-      <input type="submit" value="Send" style="background-color: green; color: white;"> <!-- Inline CSS -->
+    <form class="form">
+
+      <!-- Student Information -->
+      <div class="form-section">
+        <h2>Personal Details</h2>
+        <label>Full Name:
+          <input type="text" name="fullname" required>
+        </label>
+        <label>Gender:
+          <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Date of Birth:
+          <input type="date" name="dob">
+        </label>
+      </div>
+
+      <!-- Rotating Logo -->
+      <div class="logo-circle">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo">
+      </div>
+
+      <!-- Academic Info -->
+      <div class="form-section">
+        <h2>Academic Information</h2>
+        <label>Course:
+          <input type="text" name="course">
+        </label>
+        <label>Department:
+          <input type="text" name="department">
+        </label>
+        <label>Email:
+          <input type="email" name="email">
+        </label>
+        <label>Phone Number:
+          <input type="tel" name="phone">
+        </label>
+        <input type="submit" value="Register">
+      </div>
+
     </form>
-  </section>
-
-  <section class="multi-column internal-style">
-    <h2>Multi-Column Layout</h2>
-    <p>
-      CSS3 introduced multiple-column layout which helps content to flow in newspaper-style format. It’s useful when dealing with long blocks of text.
-      This section is styled using `column-count` and `column-gap` properties.
-      You can also use `column-rule` to add line between columns.
-    </p>
-  </section>
-
-  <section class="box-model">
-    <h2>Box Model & Shadows</h2>
-    <div class="box">This box uses padding, margin, border and shadow.</div>
-  </section>
-
-  <section class="transform-section">
-    <h2>Transition and Transform</h2>
-    <div class="transform-box">Hover me!</div>
-  </section>
-
-  <section class="animation-section">
-    <h2>CSS Animation</h2>
-    <div class="circle"></div>
-  </section>
-
-  <section class="media-query">
-    <h2>Responsive Section</h2>
-    <p>Resize the browser to see the media query effect.</p>
-  </section>
-
-  <footer class="footer">
-    <p>© 2025 CSS3 Demo</p>
-  </footer>
+  </div>
 
 </body>
 </html>
