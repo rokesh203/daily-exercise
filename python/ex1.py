@@ -1,4 +1,4 @@
-a=[]
+"""a=[]
 print("enter 4 number")
 for i in range(4):
     num = int(input("enter number:"+str(i+1) +":"))
@@ -32,3 +32,4 @@ for i in range(1,3):
     for j in range(1,4):
         print("day :",j)
 
+"""
