@@ -40,9 +40,14 @@ for i in range(1,5):
 i=1
 while(i<6):
     print(i)
-    i=i+1"""
+    i=i+1
     
 i=10
 while(i<210):
     print(i,end="")
-    i=i+10
+    i=i+10"""
+    
+i=10
+while(i>0):
+    print(i,end=",")
+    i=i-1
