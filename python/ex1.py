@@ -32,4 +32,17 @@ for i in range(1,3):
     for j in range(1,4):
         print("day :",j)
 
-"""
+
+for i in range(1,5):
+    print()
+    for j in range(1,i+1):
+        print("*",end="")
+i=1
+while(i<6):
+    print(i)
+    i=i+1"""
+    
+i=10
+while(i<210):
+    print(i,end="")
+    i=i+10
