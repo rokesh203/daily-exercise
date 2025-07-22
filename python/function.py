@@ -13,3 +13,11 @@ def findeoro(a):
 
 a=int(input("enter a number:"))
 findeoro(a)
+
+def printrange(a,b):
+    for i in range(a,b):
+        print(i)
+        
+a=int(input())
+b=int(input())
+printrange(a,b)
