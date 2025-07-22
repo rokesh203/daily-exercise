@@ -1,4 +1,4 @@
-a=[]
+"""a=[]
 print("enter 4 number")
 for i in range(4):
     num = int(input("enter number:"+str(i+1) +":"))
@@ -58,4 +58,4 @@ while(i>0):
     fact =fact*i
     i=i-1
     print(fact)
-    
+"""
