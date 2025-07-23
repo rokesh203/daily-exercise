@@ -1,4 +1,4 @@
-a=[]
+"""a=[]
 print("enter 4 number")
 for i in range(4):
     num = int(input("enter number:"+str(i+1) +":"))
@@ -58,3 +58,19 @@ while(i>0):
     fact =fact*i
     i=i-1
     print(fact)
+
+"""
+
+
+def validate(uname,upass):
+    s_uname="rokesh"
+    s_pass="123"
+    if uname==s_uname and upass==s_pass:
+        return True
+    else:
+        return False
+    
+    
+a=input("enter the name")
+b=input("enter the password")
+validate(a,b)
