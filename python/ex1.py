@@ -59,18 +59,20 @@ while(i>0):
     i=i-1
     print(fact)
 
-"""
+
 
 
 def validate(uname,upass):
     s_uname="rokesh"
     s_pass="123"
     if uname==s_uname and upass==s_pass:
-        return True
+        print("True")
     else:
-        return False
+        print("false")
     
     
 a=input("enter the name")
 b=input("enter the password")
 validate(a,b)
+
+"""

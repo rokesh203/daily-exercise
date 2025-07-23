@@ -21,3 +21,16 @@ def printrange(a,b):
 a=int(input())
 b=int(input())
 printrange(a,b)
+
+def add(a,b):
+    return a+b
+
+a=int(input("enter a number:"))
+b=int(input("enter a number"))
+c=int(input("enter a number"))
+
+added=add(a,b)
+
+out=added*c
+
+print(out)
