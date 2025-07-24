@@ -1,4 +1,4 @@
-"""a=[]
+a=[]
 print("enter 4 number")
 for i in range(4):
     num = int(input("enter number:"+str(i+1) +":"))
@@ -91,7 +91,7 @@ gowri = vinoth()
 
 rokesh.phone()
 
-"""
+
 class goa:
     name=""
     drink=""
@@ -113,3 +113,34 @@ print("Ramesh drink")
 print("drink :",ramesh.drink)
 print("Suresh Drink")
 print("drink :",suresh.drink)
+
+class laptop:
+    price=""
+    processor=""
+    Ram=""
+    def lap1():
+        print("HP laptop")
+    def lap2():
+        print("dell laptop")
+    def lap3():
+        print("lenovo laptop")
+        
+HP=laptop()
+Dell=laptop()
+Len=laptop()
+
+HP.price="50000"
+HP.processor="i5"
+HP.Ram="32Gb"
+print("HP"+HP.price,HP.processor,HP.Ram)
+
+Dell.price="60000"
+Dell.processor="i6"
+Dell.Ram="32Gb"
+print("Dell"+Dell.price,Dell.processor,Dell.Ram)
+
+
+Len.price="50000"
+Len.processor="i5"
+Len.Ram="32Gb"
+print("Lenovo"+Len.price,Len.processor,Len.Ram)
