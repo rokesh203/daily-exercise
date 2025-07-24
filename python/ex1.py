@@ -75,4 +75,41 @@ a=input("enter the name")
 b=input("enter the password")
 validate(a,b)
 
+
+
+class vinoth:
+    drink=""
+    def read(self):
+        print("aptitude")
+    
+    def phone(self):
+        print("reels")
+        
+
+rokesh =vinoth()
+gowri = vinoth()
+
+rokesh.phone()
+
 """
+class goa:
+    name=""
+    drink=""
+    def party(self):
+        print("lets party")
+    def beach(self):
+      print("lets swim")
+      
+ramesh=goa()
+suresh=goa()
+
+ramesh.name="ramesh"
+suresh.drink="beer"
+
+ramesh.drink="yes"
+suresh.drink="No"
+
+print("Ramesh drink")
+print("drink :",ramesh.drink)
+print("Suresh Drink")
+print("drink :",suresh.drink)
