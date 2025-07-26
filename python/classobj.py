@@ -24,11 +24,26 @@ class student:
 stu = student()
 stu.name="rokesh"
 stu.register=123
-stu.display()"""
+stu.display()
 
 class Fruit:
     def __init__(self,col):
         self.color=col
         
 apple=Fruit("red")
-print(apple.color)
+print(apple.color)"""
+
+class Teacher:
+    def __init__(self,name,regno):
+        self.name=name
+        self.regno=regno
+    def display(self):
+        print("name :",self.name)
+        print("regno :",self.regno)
+        
+t1=Teacher("rokesh","123")
+t2=Teacher("raj","124")
+        
+t1.display()
+t2.display()
+
