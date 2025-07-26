@@ -1,4 +1,4 @@
-"""class vinoth:
+class vinoth:
     drink=""
     def read(self):
         print("aptitude")
@@ -31,7 +31,7 @@ class Fruit:
         self.color=col
         
 apple=Fruit("red")
-print(apple.color)"""
+print(apple.color)
 
 class Teacher:
     def __init__(self,name,regno):
@@ -47,3 +47,23 @@ t2=Teacher("raj","124")
 t1.display()
 t2.display()
 
+class calculator:
+    def __init__(self,a,b):
+        self.a=int(a)
+        self.b=int(b)
+    def add(self):
+        print(self.a+self.b)
+    def sub(self):
+        print(self.a-self.b)
+    def mul(self):
+        print(self.a*self.b)
+    def div(self):
+        print(self.a/self.b)
+
+x=input("enter num a :")
+y=input("enter num b:")
+ad=calculator(x,y)
+ad.add()
+ad.sub()
+ad.mul()
+ad.div()
