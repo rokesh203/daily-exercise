@@ -11,7 +11,7 @@ rokesh =vinoth()
 gowri = vinoth()
 
 rokesh.phone()
-gowri.read()"""
+gowri.read()
 
 class student:
     def __init__(self):
@@ -24,4 +24,11 @@ class student:
 stu = student()
 stu.name="rokesh"
 stu.register=123
-stu.display()
+stu.display()"""
+
+class Fruit:
+    def __init__(self,col):
+        self.color=col
+        
+apple=Fruit("red")
+print(apple.color)
