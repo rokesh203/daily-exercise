@@ -1,4 +1,4 @@
-def additon():
+"""def additon():
     a=int(input())
     b=int(input())
     print(a+b)
@@ -33,4 +33,20 @@ added=add(a,b)
 
 out=added*c
 
-print(out)
+print(out)"""
+
+class Solution(object):
+    def checkDivisibility(self, n):
+        c=str(n)
+        dig1=int(c[0])
+        dig2=int(c[1])
+        add=dig1+dig2
+        prod=dig1*dig2
+        total=add+prod
+        if(n%total==0):
+            print("true")
+        else:
+            print("false")
+
+s=Solution()
+s.checkDivisibility(36)

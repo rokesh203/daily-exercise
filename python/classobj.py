@@ -1,4 +1,4 @@
-class vinoth:
+"""class vinoth:
     drink=""
     def read(self):
         print("aptitude")
@@ -66,4 +66,21 @@ ad=calculator(x,y)
 ad.add()
 ad.sub()
 ad.mul()
-ad.div()
+ad.div()"""
+
+class phone():
+    def __init__(self,brand,price,chargetype):
+        self.brand=brand
+        self.price=price
+        self.chargetype=chargetype
+    def display(self):
+        print("Brand"+self.brand)
+        print("price"+self.price)
+        print("charge type"+self.chargetype)
+        
+        
+moto=phone("moto","23000","c-type")
+moto.display()
+
+samsung=phone("samsung","20000","c-type")
+samsung.display()
